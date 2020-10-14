@@ -4,7 +4,7 @@ usuarios_premium = ARGV[2].to_i
 usuarios_gratuito = ARGV[3].to_i
 gastos = ARGV[4].to_f
 
-utilidades_b = (precio_venta * usuarios_normales) + ((2 * precio_venta) * usuarios_premium) - gastos
+utilidades_b = (precio_venta * (usuarios_normales + (2 * usuarios_premium))) - gastos
 
 if utilidades_b > 0
     impuesto = 0.35
