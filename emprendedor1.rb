@@ -1,3 +1,8 @@
+puts "Bienvenido a Cálculo de Utilidades v1"
+puts "Ingrese los siguientes datos"
+puts "- Precio de Producto"
+puts "- Num de Usuarios"
+puts "- Gastos"
 precio_venta = ARGV[0].to_f
 usuarios = ARGV[1].to_i
 gastos = ARGV[2].to_f
