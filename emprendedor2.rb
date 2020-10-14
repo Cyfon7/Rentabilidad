@@ -1,3 +1,11 @@
+puts "Bienvenido a Cálculo de Utilidades v2"
+puts "Ingrese los siguientes datos"
+puts "- Precio de Producto"
+puts "- Num de Usuarios"
+puts "- Num de Usuarios Premium"
+puts "- Num de Usuarios Gratuitos"
+puts "- Gastos"
+
 precio_venta = ARGV[0].to_f
 usuarios_normales = ARGV[1].to_i
 usuarios_premium = ARGV[2].to_i
